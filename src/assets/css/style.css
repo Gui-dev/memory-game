@@ -4,6 +4,41 @@
   padding: 0;
 }
 
+html, body {
+  font-size: 62.5%;
+  font-family: 'Righteous', sans-serif;
+}
+
 h1 {
-  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #999;
+  margin-top: 3rem;
+}
+
+.card {
+  height: 15rem;
+  width: 15rem;
+}
+
+.card_front, .card_back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .45);
+}
+
+.card_front {  
+  background-color: #101C2C;
+}
+
+.card_back {
+  font-size: 4.5rem;
+  color: #222;
+  background-color: #03BB85;
 }
