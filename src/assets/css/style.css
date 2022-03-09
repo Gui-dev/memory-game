@@ -4,9 +4,10 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   font-size: 62.5%;
-  font-family: 'Righteous', sans-serif;
+  font-family: "Righteous", sans-serif;
 }
 
 h1 {
@@ -14,31 +15,43 @@ h1 {
   align-items: center;
   justify-content: center;
   font-size: 2.5rem;
-  color: #999;
+  color: #101c2c;
   margin-top: 3rem;
 }
 
 .card {
+  position: relative;
   height: 15rem;
   width: 15rem;
+  transition: transform .5s;
+  transform-style: preserve-3d;
 }
 
-.card_front, .card_back {
+.card_front,
+.card_back {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
   height: 100%;
   width: 100%;
   border-radius: 2rem;
-  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .45);
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  backface-visibility: hidden;
 }
 
-.card_front {  
-  background-color: #101C2C;
+.flip {
+  transform: rotateY(180deg);
+}
+
+.card_front {
+  background-color: #101c2c;
+  transform: rotateY(180deg);
 }
 
 .card_back {
   font-size: 4.5rem;
   color: #222;
-  background-color: #03BB85;
+  background-color: #03bb85;
 }
