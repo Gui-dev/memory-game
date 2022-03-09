@@ -55,3 +55,42 @@ h1 {
   color: #222;
   background-color: #03bb85;
 }
+
+/* Modal game Over */
+.game-over {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.game-over h2 strong {
+  font-size: 3rem;
+  color: #FFF;
+}
+
+.game-over h2 {
+  font-size: 2.5rem;
+  color: #FFF;
+}
+
+.game-over .restart {
+  font-size: 2.5rem;
+  font-family: "Righteous", sans-serif;
+  color: #222;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #03bb85;
+  border-radius: 1rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.game-over .restart:hover {
+  background-color: #02b37e;
+}
