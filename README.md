@@ -14,6 +14,15 @@
 
 </div>
 
+<h2 id="images">📷 Images</h2>
+<div align="center">
+
+  <img src=".github/images/init.png" alt="Demo Jogo da Memória" width="700px">
+  <img src=".github/images/game.png" alt="Demo Jogo da Memória" width="700px">
+  <img src=".github/images/over.png" alt="Demo Jogo da Memória" width="700px">
+
+</div>
+
 <h2 id="about-project">ℹ About the project</h2>
 
 A special game for web developers, because here you can play the famous memory game with some of the best technologies on the market.
