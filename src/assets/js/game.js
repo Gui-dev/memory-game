@@ -172,7 +172,8 @@ const createIdWithCard = (card) => {
   return card + parseInt(Math.random() * 1000)
 }
 
-const restart = () => {
+function restart () {
+  console.log('clicou')
   clearCards()
   startGame()
   const gameOverLayer = document.querySelector('.game-over')
